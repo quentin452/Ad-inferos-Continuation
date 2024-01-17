@@ -20,7 +20,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class EntityQuartzman extends EntityGolem implements IRangedAttackMob {
-   private static final String __OBFID = "CL_00001650";
 
    public EntityQuartzman(World worldIn) {
       super(worldIn);

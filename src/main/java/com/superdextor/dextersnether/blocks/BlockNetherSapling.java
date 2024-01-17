@@ -19,7 +19,6 @@ import net.minecraftforge.event.terraingen.TerrainGen;
 public class BlockNetherSapling extends BlockBush implements IGrowable {
    public static final String[] field_149882_a = new String[]{"nether"};
    private static final IIcon[] field_149881_b;
-   private static final String __OBFID = "CL_00000305";
 
    public BlockNetherSapling() {
       float f = 0.4F;

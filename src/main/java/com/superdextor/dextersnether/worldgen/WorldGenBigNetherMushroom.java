@@ -9,7 +9,6 @@ import net.minecraft.world.gen.feature.WorldGenerator;
 
 public class WorldGenBigNetherMushroom extends WorldGenerator {
    private int mushroomType = -1;
-   private static final String __OBFID = "CL_00000415";
 
    public WorldGenBigNetherMushroom(int type) {
       super(true);

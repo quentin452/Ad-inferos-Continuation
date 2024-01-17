@@ -9,8 +9,6 @@ import net.minecraft.entity.Entity;
 @SideOnly(Side.CLIENT)
 public class ModelSummor extends ModelBase {
    public ModelRenderer skeletonHead;
-   private static final String __OBFID = "CL_00000856";
-
    public ModelSummor() {
       this(0, 0, 64, 32);
    }

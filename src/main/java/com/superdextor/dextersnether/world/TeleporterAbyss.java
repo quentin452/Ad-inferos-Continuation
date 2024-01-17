@@ -21,7 +21,6 @@ public class TeleporterAbyss extends Teleporter {
    private final Random random;
    private final LongHashMap destinationCoordinateCache = new LongHashMap();
    private final List destinationCoordinateKeys = new ArrayList();
-   private static final String __OBFID = "CL_00000153";
 
    public TeleporterAbyss(WorldServer worldIn) {
       super(worldIn);
@@ -411,7 +410,6 @@ public class TeleporterAbyss extends Teleporter {
 
    public class PortalPosition extends ChunkCoordinates {
       public long lastUpdateTime;
-      private static final String __OBFID = "CL_00000154";
 
       public PortalPosition(int p_i1962_2_, int p_i1962_3_, int p_i1962_4_, long p_i1962_5_) {
          super(p_i1962_2_, p_i1962_3_, p_i1962_4_);

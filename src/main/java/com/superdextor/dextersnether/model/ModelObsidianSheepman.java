@@ -11,7 +11,6 @@ import net.minecraft.util.MathHelper;
 
 @SideOnly(Side.CLIENT)
 public class ModelObsidianSheepman extends ModelBiped {
-   private static final String __OBFID = "CL_00000869";
 
    public ModelObsidianSheepman() {
       this(0.0F, false);

@@ -14,7 +14,6 @@ import org.lwjgl.opengl.GL11;
 @SideOnly(Side.CLIENT)
 public class RenderSoulTNTPrimed extends Render {
    private RenderBlocks blockRenderer = new RenderBlocks();
-   private static final String __OBFID = "CL_00001030";
 
    public RenderSoulTNTPrimed() {
       this.shadowSize = 0.4F;

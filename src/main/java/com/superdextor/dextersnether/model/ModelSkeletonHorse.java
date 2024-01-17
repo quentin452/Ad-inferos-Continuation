@@ -51,7 +51,6 @@ public class ModelSkeletonHorse extends ModelBase {
    private ModelRenderer horseRightFaceMetal;
    private ModelRenderer horseLeftRein;
    private ModelRenderer horseRightRein;
-   private static final String __OBFID = "CL_00000846";
 
    public ModelSkeletonHorse() {
       this.textureWidth = 128;

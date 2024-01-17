@@ -10,7 +10,6 @@ import net.minecraft.world.biome.WorldChunkManagerHell;
 import net.minecraft.world.chunk.IChunkProvider;
 
 public class WorldProviderAbyss extends WorldProvider {
-   private static final String __OBFID = "CL_00000387";
 
    public void registerWorldChunkManager() {
       this.worldChunkMgr = new WorldChunkManagerHell(NetherGeneration.abyss, 0.0F);

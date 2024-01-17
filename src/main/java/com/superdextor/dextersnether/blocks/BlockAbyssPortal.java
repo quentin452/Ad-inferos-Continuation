@@ -131,7 +131,6 @@ public class BlockAbyssPortal extends BlockPortal implements AltarBlock {
       private ChunkCoordinates field_150861_f;
       private int field_150862_g;
       private int field_150868_h;
-      private static final String __OBFID = "CL_00000285";
 
       public Size(World world, int x, int y, int z, int p_i45415_5_) {
          this.field_150867_a = world;

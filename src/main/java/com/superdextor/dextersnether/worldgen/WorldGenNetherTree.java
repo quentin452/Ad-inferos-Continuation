@@ -25,7 +25,6 @@ public class WorldGenNetherTree extends WorldGenAbstractTree {
    int leafDistanceLimit = 4;
    int[][] leafNodes;
    private boolean hasLeaves;
-   private static final String __OBFID = "CL_00000400";
 
    public WorldGenNetherTree(boolean var, boolean hasLeaves) {
       super(var);

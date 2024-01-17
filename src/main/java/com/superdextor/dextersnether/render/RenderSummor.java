@@ -19,7 +19,6 @@ public class RenderSummor extends RenderLiving {
    private static final ResourceLocation reaperTextures = new ResourceLocation("dextersnether:textures/entity/reaper.png");
    private static final ResourceLocation herobrineTextures = new ResourceLocation("dextersnether:textures/entity/herobrine.png");
    private static final ModelSummor skeletonHeadModel = new ModelSummor();
-   private static final String __OBFID = "CL_00001035";
 
    public RenderSummor() {
       super(skeletonHeadModel, 0.2F);

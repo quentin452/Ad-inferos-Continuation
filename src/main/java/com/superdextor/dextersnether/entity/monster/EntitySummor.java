@@ -105,8 +105,6 @@ public class EntitySummor extends EntityLiving implements NetherMob {
                this.setStage(this.summorMethod + 1);
             }
          } else {
-            int k = false;
-            int i = false;
             this.playSound("dextersnether:summon", 2.0F, 1.3F);
             this.worldObj.newExplosion((Entity)null, this.posX, this.posY + 1.0D, this.posZ, 0.5F, false, false);
             this.addPotionEffect(new PotionEffect(Potion.regeneration.id, 80, 3));
