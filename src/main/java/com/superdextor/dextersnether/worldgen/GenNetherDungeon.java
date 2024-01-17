@@ -18,15 +18,17 @@ public class GenNetherDungeon extends WorldGenerator {
       int var4;
       int var5;
       int var6;
-      for(var4 = var - x - 1; var4 <= var + x + 1; ++var4) {
-         for(var5 = var2 - 1; var5 <= var2 + y_up + 1; ++var5) {
-            for(var6 = var3 - z - 1; var6 <= var3 + z + 1; ++var6) {
-               if ((var4 == var - x - 1 || var4 == var + x + 1 || var6 == var3 - z - 1 || var6 == var3 + z + 1) && var5 == var2 && world.isAirBlock(var4, var5, var6)) {
-                  ++spawn;
+       for (var4 = var - x - 1; var4 <= var + x + 1; ++var4) {
+           for (var5 = var2 - 1; var5 <= var2 + y_up + 1; ++var5) {
+               for (var6 = var3 - z - 1; var6 <= var3 + z + 1; ++var6) {
+                   if ((var4 == var - x - 1 || var4 == var + x + 1 || var6 == var3 - z - 1 || var6 == var3 + z + 1) && var5 == var2) {
+                       if (world.blockExists(var4, var5, var6) && world.isAirBlock(var4, var5, var6)) {
+                           ++spawn;
+                       }
+                   }
                }
-            }
-         }
-      }
+           }
+       }
 
       if (spawn >= 1 && spawn <= 5) {
          for(var4 = var - x - 1; var4 <= var + x + 1; ++var4) {
