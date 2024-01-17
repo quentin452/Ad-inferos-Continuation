@@ -1,0 +1,101 @@
+{
+  "records.nether": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/TheNether",
+        "stream": true
+      }
+    ]
+  },
+  "records.abyss": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "music/TheAbyss",
+        "stream": true
+      }
+    ]
+  },
+  "mob.phantom.idle": {
+    "category": "hostile",
+    "sounds": [
+      "phantom/phantom1",
+      "phantom/phantom2",
+      "phantom/phantom3",
+      "phantom/phantom4",
+      "phantom/phantom1"
+    ]
+  },
+  "mob.phantom.hit": {
+    "category": "hostile",
+    "sounds": [
+      "phantom/phantom1",
+      "phantom/phantom3",
+      "phantom/phantom4"
+    ]
+  },
+  "mob.phantom.death": {
+    "category": "hostile",
+    "sounds": [
+      "phantom/phantom_death"
+    ]
+  },
+  "summon": {
+    "category": "hostile",
+    "sounds": [
+      "summon"
+    ]
+  },
+  "mob.infernumavis.awaken": {
+    "category": "hostile",
+    "sounds": [
+      "infernumavis/awaken"
+    ]
+  },
+  "mob.infernumavis.damage": {
+    "category": "hostile",
+    "sounds": [
+      "infernumavis/damage1",
+      "infernumavis/damage2",
+      "infernumavis/damage3"
+    ]
+  },
+  "mob.infernumavis.sleep": {
+    "category": "hostile",
+    "sounds": [
+      "infernumavis/sleep1",
+      "infernumavis/sleep2",
+      "infernumavis/sleep3",
+      "infernumavis/sleep4"
+    ]
+  },
+  "mob.infernumavis.angry": {
+    "category": "hostile",
+    "sounds": [
+      "infernumavis/angry1",
+      "infernumavis/angry2",
+      "infernumavis/angry3"
+    ]
+  },
+  "mob.infernumavis.death": {
+    "category": "hostile",
+    "sounds": [
+      "infernumavis/death"
+    ]
+  },
+  "mob.curse.idle": {
+    "category": "hostile",
+    "sounds": [
+      "curse/idle1",
+      "curse/idle2",
+      "curse/idle3"
+    ]
+  },
+  "mob.curse.damage": {
+    "category": "hostile",
+    "sounds": [
+      "curse/damage1"
+    ]
+  }
+}

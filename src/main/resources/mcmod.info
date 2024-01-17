@@ -1,0 +1,17 @@
+[
+{
+  "modid": "dextersnether",
+  "name": "Ad Inferos",
+  "description": "Feel that the Nether is getting boring, Then Ad Inferos© is the Mod for You! new Monsters, Dungeons, Bosses, Weapons & the Abyss",
+  "version": "§e1.7.10§6",
+  "mcversion": "1.7.10",
+  "url": "minecraft.curseforge.com/projects/ad-inferos",
+  "updateUrl": "",
+  "authorList": ["superdextor"],
+  "credits": "superdextor & the Think Big Team",
+  "logoFile": "Ad_Inferos_Logo.png",
+  "screenshots": [],
+  "requiredMods": [ "Forge", "ThinkBigCore" ],
+  "dependencies": [ "ThinkBigCore" ]
+}
+]
